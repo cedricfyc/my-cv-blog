@@ -32,19 +32,28 @@
           <h2>Experience</h2>
 
           <div class="item">
-            <p class="title">Intern Twin Developer — Schneider ELectric <span class="right">2025 — Present</span></p>
+            <p class="title">Intern Twin Developer — Schneider ELectric <span class="right">Sep 2025 — Present</span></p>
             <p class="meta">Marktheidenfeld, Bavaria, Germany</p>
             <ul>
-              <li>Developing TWIN assemblies with an emphasis on PLC integration.</li>
+              <li>Developing TWIN Assemblies with An Emphasis on PLC Integration.</li>
             </ul>
           </div>
 
           <div class="item">
-            <p class="title">Assistant Student — Mainfranken Racing <span class="right">2018 — 2021</span></p>
+            <p class="title">Assistant Student — Mainfranken Racing <span class="right">Oct 2024 — Jul 2025 </span></p>
             <p class="meta">Schweinfurt, Bavaria, Germany</p>
             <ul>
               <li>E-Technik Department: Soldering, CAD and PCB Design.</li>
               <li>Driverless Department: Python, ROS and CADs</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <p class="title">Intern Mechatronics Engineer — RT-Knits Ltd <span class="right">Jun 2021 — Sep 2021</span></p>
+            <p class="meta">Schweinfurt, Bavaria, Germany</p>
+            <ul>
+              <li>Basics of C++, Arduino and Python Programming.</li>
+              <li>Maintenance of Mechanical Systems and Installing Electrical Systems</li>
             </ul>
           </div>
         </div>

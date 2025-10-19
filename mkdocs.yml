@@ -1,17 +1,29 @@
 site_name: "Cedric's Website"
 site_description: "Personal portfolio, blog, and CV built with MkDocs."
-site_url: "https://johndoe.github.io"
 theme:
   name: material
   language: en
   logo: assets/perrito-super-gordito.jpeg
   favicon: assets/perrito-super-gordito.jpeg
   palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+        primary: cyan
+
+    # Palette toggle for dark mode
     - scheme: slate
-      primary: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        primary: blue
 
 nav:
   - Home: index.md
+  - Website Goals: goals.md
   - About: about.md
   - CV: cv.md
   - Projects:
@@ -60,9 +72,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.emoji
   
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/johndoe
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/johndoe
+extra_css:
+  - stylesheets/comments.css
+  - stylesheets/cv.css

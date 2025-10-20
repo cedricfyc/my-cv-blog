@@ -26,6 +26,7 @@ nav:
   - Website Goals: goals.md
   - About: about.md
   - CV: cv.md
+  - Comments: comment-section.md
   - Projects:
       - Overview: projects/index.md
       - Project 1: projects/project1.md
@@ -75,3 +76,6 @@ markdown_extensions:
 extra_css:
   - stylesheets/comments.css
   - stylesheets/cv.css
+
+extra_javascript:
+  - https://giscus.app/client.js

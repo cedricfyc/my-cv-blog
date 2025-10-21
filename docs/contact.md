@@ -1,5 +1,6 @@
 # Contact Me
 
+## Contact Formular
 <!-- modify this form HTML and place wherever you want your form -->
 <form
   action="https://formspree.io/f/myznvdzn"
@@ -20,6 +21,13 @@
   <button type="submit">Send Message</button>
 </form>
 
+## My Contact Details
 
 💼 **LinkedIn:** [https://www.linkedin.com/in/cedric-fong-yee-chun-777176248/](https://www.linkedin.com/in/cedric-fong-yee-chun-777176248/)  
 💻 **GitHub:** [https://github.com/cedricfyc](https://github.com/cedricfyc)
+
+## Feedback Form
+
+Feeling courageous? Try my feedback form!
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpyifIUjb2IgEGeC6msvSTDCFPecdhMB8HDnaYKksA6LONyA/viewform?embedded=true" width="640" height="1795" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

@@ -77,7 +77,13 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   
 extra_css:
   - stylesheets/comments.css
   - stylesheets/cv.css
+

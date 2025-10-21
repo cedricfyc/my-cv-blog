@@ -7,4 +7,4 @@
 - [ ] Implement GH Actions for automatic updates of GH Pages
 - [x] Implement a toggeable light/dark mode
 - [ ] Implement dynamic change log
-- [x] Implement analytics functions for feature improvement
+- [ ] Implement analytics functions for feature improvement

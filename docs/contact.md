@@ -1,5 +1,15 @@
 # Contact Me
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P3DSW078L4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P3DSW078L4');
+</script>
+
 <!-- modify this form HTML and place wherever you want your form -->
 <form
   action="https://formspree.io/f/myznvdzn"

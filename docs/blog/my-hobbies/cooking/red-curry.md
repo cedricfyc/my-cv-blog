@@ -1,5 +1,15 @@
 # Thai Red Curry
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P3DSW078L4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P3DSW078L4');
+</script>
+
 *Published: October 18, 2025*
 
 I decided to have a try at cooking some Thai red curry today. Using some curry paste and chicken I had bought previously,

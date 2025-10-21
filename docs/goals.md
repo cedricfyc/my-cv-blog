@@ -1,7 +1,10 @@
 - [x] Deploy Website
 - [x] Complete CV and remaining empty pages
-- [ ] Giscus Discussion Section
-- [ ] Implement RSS Feed
-- [x] Implement Email System to receive feedback
+- [x] Giscus Discussion Section
+- [ ] Implement RSS feed
+- [ ] Implement newsletter system
+- [x] Implement E-mail system to receive feedback
 - [ ] Implement GH Actions for automatic updates of GH Pages
 - [x] Implement a toggeable light/dark mode
+- [ ] Implement dynamic change log
+- [x] Implement analytics functions for feature improvement

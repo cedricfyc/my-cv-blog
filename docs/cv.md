@@ -25,14 +25,14 @@
         <div class="resume-section">
           <h2>Professional Summary</h2>
           <p>I am a Mechatronics Engineer with a passion for industrial automation and IoT applications.
-          I am an avid learner and teamwork enthusiast.</p>
+          I am an avid learner and a teamwork enthusiast.</p>
         </div>
 
         <div class="resume-section">
           <h2>Experience</h2>
 
           <div class="item">
-            <p class="title">Intern Twin Developer — Schneider ELectric <span class="right">Sep 2025 — Present</span></p>
+            <p class="title">Intern Digital Twin Developer — Schneider ELectric <span class="right">Sep 2025 — Present</span></p>
             <p class="meta">Marktheidenfeld, Bavaria, Germany</p>
             <ul>
               <li>Developing TWIN Assemblies with An Emphasis on PLC Integration.</li>
@@ -105,7 +105,7 @@
         </div>
 
         <div class="resume-section">
-          <h2>Additional</h2>
+          <h2>Other SKills</h2>
           <p>Climbing, strength training, language learning.</p>
         </div>
       </div>

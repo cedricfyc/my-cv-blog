@@ -26,7 +26,7 @@ nav:
   - Website Goals: goals.md
   - About: about.md
   - CV: cv.md
-  - Comments: comment-section.md
+  - Announcements: announcements.md
   - Projects:
       - Overview: projects/index.md
       - Project 1: projects/project1.md
@@ -49,6 +49,11 @@ nav:
            - Language Learning Index: blog/my-hobbies/language-learning/index.md
            - Language Starter Guide: blog/my-hobbies/language-learning/starter-guide.md
            - App Review - Tandem: blog/my-hobbies/language-learning/app-review-tandem.md
+           - English Yap: blog/my-hobbies/language-learning/english-yap.md
+           - French Yap: blog/my-hobbies/language-learning/french-yap.md
+           - Kreol Yap: blog/my-hobbies/language-learning/kreol-yap.md
+           - German Yap: blog/my-hobbies/language-learning/german-yap.md
+           - Spanish Yap: blog/my-hobbies/language-learning/spanish-yap.md
         - Cooking:
            - Cooking Index: blog/my-hobbies/cooking/index.md
            - Thai Red Curry: blog/my-hobbies/cooking/red-curry.md
@@ -76,3 +81,8 @@ markdown_extensions:
 extra_css:
   - stylesheets/comments.css
   - stylesheets/cv.css
+
+extra:
+  analytics:
+    - provider: google
+    - property: G-P3DSW078L4 # Your GA4 Measurement ID

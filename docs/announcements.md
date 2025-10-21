@@ -1,3 +1,7 @@
+# Announcements
+
+Below are announcements made by the author of this website:
+
 <script src="https://giscus.app/client.js"
         data-repo="cedricfyc/my-cv-blog"
         data-repo-id="R_kgDOQFT-mg"

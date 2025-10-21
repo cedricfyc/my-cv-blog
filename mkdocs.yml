@@ -81,8 +81,3 @@ markdown_extensions:
 extra_css:
   - stylesheets/comments.css
   - stylesheets/cv.css
-
-extra:
-  analytics:
-    - provider: google
-    - property: G-P3DSW078L4 # Your GA4 Measurement ID

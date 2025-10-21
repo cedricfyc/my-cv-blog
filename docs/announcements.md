@@ -1,15 +1,5 @@
 # Announcements
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P3DSW078L4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-P3DSW078L4');
-</script>
-
 Below are announcements made by the author of this website:
 
 <script src="https://giscus.app/client.js"

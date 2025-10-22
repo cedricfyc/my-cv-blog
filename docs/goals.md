@@ -8,3 +8,6 @@
 - [x] Implement a toggeable light/dark mode
 - [ ] Implement dynamic change log
 - [ ] ~~Implement analytics functions for feature improvement~~
+- [x] Add feedback feature and links to it at the end of articles
+- [x] Add a footer with contact details
+- [ ] Add social card(s)

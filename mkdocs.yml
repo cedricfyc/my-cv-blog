@@ -39,6 +39,7 @@ nav:
            - Fitness Index: blog/my-hobbies/fitness/index.md
         - Climbing:
            - Climbing Index: blog/my-hobbies/climbing/index.md
+           - My Experience with Climbing: blog/my-hobbies/climbing/my-climbing-experience.md
         - Anime and Manga:
            - Anime and Manga Index: blog/my-hobbies/anime-and-manga/index.md
            - What is Manga/Anime?: blog/my-hobbies/anime-and-manga/what-is-manga-anime.md
@@ -47,6 +48,11 @@ nav:
            - My Favourite Genres: blog/my-hobbies/music/my-favourite-genres.md
         - Programming:
            - Programming Index: blog/my-hobbies/programming/index.md
+           - Get Started Programming: blog/my-hobbies/programming/get-started-programming.md
+           - Getting Into AI: blog/my-hobbies/programming/getting-into-aml.md
+           - Getting Into Arduino: blog/my-hobbies/programming/getting-into-arduino.md
+           - Getting Into Linux: blog/my-hobbies/programming/getting-into-linux.md
+           - Programming Resources: blog/my-hobbies/programming/prog-languages-resources.md
         - Language Learning:
            - Language Learning Index: blog/my-hobbies/language-learning/index.md
            - Language Starter Guide: blog/my-hobbies/language-learning/starter-guide.md

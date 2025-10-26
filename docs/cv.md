@@ -32,7 +32,7 @@
           <h2>Experience</h2>
 
           <div class="item">
-            <p class="title">Intern Digital Twin Developer — Schneider ELectric <span class="right">Sep 2025 — Present</span></p>
+            <p class="title">Intern Digital Twin Developer — Schneider Electric <span class="right">Sep 2025 — Present</span></p>
             <p class="meta">Marktheidenfeld, Bavaria, Germany</p>
             <ul>
               <li>Developing TWIN Assemblies with An Emphasis on PLC Integration.</li>

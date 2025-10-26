@@ -156,25 +156,25 @@ Obtain as many resources to start your immersion and comprehensible input (free 
 
 ---
 
-### Children's Books
+#### Children's Books
 
 ---
 
-### Language Exchange Apps
+#### Language Exchange Apps
 - Tandem  
 - HelloTalk  
 - italki  
 
 ---
 
-### Flashcard Apps
+#### Flashcard Apps
 - Anki  
 - FluentU  
 - DuoCards  
 
 ---
 
-### Websites
+#### Websites
 - [Grammar in German on Lingolia](https://www.lingolia.com/de/)
 - [Grammar in Spanish on Lingolia](https://www.lingolia.com/es/)
 **Note**: With reference again to my take on the input hypothesis, I would advise learning your target language's grammar in the given target language. Learning Spanish or German grammar while still reading it in English is passable for A1, but past that, it is a waste of learning potential.

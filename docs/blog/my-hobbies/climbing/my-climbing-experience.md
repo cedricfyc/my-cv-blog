@@ -1,11 +1,16 @@
-# Wie Ich Die Deutsche Sprache Gelernt Habe
+# My Experience with Climbing
 
-## Mein Niveau der Sprache
+*Written on: 25.10.2025*
 
+## Pop Culture around Climbing
 
-## Meine Erfahrungen Mit Dem Sprachenlernen
+---
 
-## Die Zukunft Meines Lernens Der Deutschen Sprache
+## How I Got Into Climbing
+
+---
+
+## Climbing From Now On
 
 ---
 

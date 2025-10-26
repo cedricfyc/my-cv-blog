@@ -30,3 +30,23 @@ As of today, I am still communicating on Whatsapp with language partners who I m
 
 ## TLDR
 The app has been a great platform for meeting new people and getting reliable language partners to practice Spanish with. Say that you're not dating, only learning, write entire paragraphs as introductions and focus on writing and reading since those are the easiest at beginner levels.
+
+---
+
+## Comments Section
+
+<script src="https://giscus.app/client.js"
+        data-repo="cedricfyc/my-cv-blog"
+        data-repo-id="R_kgDOQFT-mg"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOQFT-ms4Cw36I"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

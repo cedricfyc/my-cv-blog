@@ -1,11 +1,4 @@
-# Wie Ich Die Deutsche Sprache Gelernt Habe
-
-## Mein Niveau der Sprache
-
-
-## Meine Erfahrungen Mit Dem Sprachenlernen
-
-## Die Zukunft Meines Lernens Der Deutschen Sprache
+# Programming Resources For Every Language I know
 
 ---
 

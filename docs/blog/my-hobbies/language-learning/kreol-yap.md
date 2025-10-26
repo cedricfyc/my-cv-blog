@@ -1,5 +1,4 @@
 # Kuma Mon Apran Koz Kreol
-# How I Came to Learn To Speak Kreol
 
 *Ecrit le 25.10.2025*
 
@@ -9,9 +8,9 @@
 
 ---
 
-## Mo Niveau En Kreol
+## Mo Niveau Kreol
 
-Kreol plus ou moins mo langue plis confortable aster. Mo zwen ar 1 mauricien aster, mo senti mwa mari heureux. Ena 1 certaine liberter to resenti kan to kpv koz 1 langue ki compris par moins ki 1.2 millions dimounes dans le monde. Vu ki Kreol plus ou moins 1 langue "spoken only", mo satisfait avec le fait ki zamais mo pou bizin kone ou envi kone le systeme ki gouvernement maurice pe sey mette en place. Mo fier de mo niveau dans lalangue la. Cest vraiment premiere langue ki mo fin apran completement par moem. Freaking full on immersion ziska mo fin forcer apran langaz la...foufff sa langaz la ki fin mari kass mo fess coumencement. Sa ggt pacing dans kreol pa ti naturel ditout pou mwa, mais asterla mo kpv dir ki mo 1 native speaker, apart pou bans proverbes ar ki mo bien fer fout, avec due respect, ban vier bolhommes ek vier bolfemmes :D
+Kreol plus ou moins mo langue plis confortable aster. Mo zwen ar 1 mauricien aster, mo senti mwa mari heureux. Ena 1 certaine liberter to resenti kan to kpv koz 1 langue ki compris par moins ki 1.2 millions dimounes dans le monde. Vu ki Kreol plus ou moins 1 langue "spoken only", mo satisfait avec le fait ki zamais mo pou bizin kone ou envi kone le systeme ki gouvernement maurice pe sey mette en place. Mo fier de mo niveau dans lalangue la. Cest vraiment premiere langue ki mo fin apran completement par moem. Freaking full on immersion ziska mo fin forcer apran langaz la...foufff sa langaz la ki fin mari kass mo fess coumencement. Sa couyonad pacing dans kreol pa ti naturel ditout pou mwa, mais asterla mo kpv dir ki mo 1 native speaker, apart pou bans proverbes ar ki mo bien fer fout, avec due respect, ban vier bolhommes ek vier bolfemmes :D
 
 ---
 

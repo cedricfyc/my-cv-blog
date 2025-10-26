@@ -4,6 +4,9 @@
 
 ## Pop Culture around Climbing
 
+abrahamsson, fitness climbers, chris sharma, adam ondra, janja garnbret, alain robert (spider man), alex megos
+[https://rockclimbingcentral.com/the-14-different-types-of-climbing/#Trad](https://rockclimbingcentral.com/the-14-different-types-of-climbing/#Trad)
+
 ---
 
 ## How I Got Into Climbing

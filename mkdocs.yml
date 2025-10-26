@@ -1,5 +1,6 @@
 site_name: "Cedric's Website"
 site_description: "Personal portfolio, blog, and CV built with MkDocs."
+site_url: https://cedricfyc.github.io/my-cv-blog/
 theme:
   name: material
   language: en
@@ -31,7 +32,10 @@ nav:
   - Announcements: announcements.md
   - Projects:
       - Overview: projects/index.md
-      - Project 1: projects/project1.md
+      - Making This Website: projects/my-mkdocs-website.md
+      - Weather Forecast and Meteo Station: projects/weather-forecast-station.md
+      - Pick and Place Industrial Project: projects/pnp-industrial-project.md
+      - Fluid Mechatronic Linear Drive in Boris: projects/fluid-mechatronic-drive.md
   - Blog:
       - Blogs Overview: blog/index.md
       - My Hobbies:
@@ -108,3 +112,6 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/cedric-fong-yee-chun-777176248/
       name: My LinkedIn
+
+plugins:
+  - social

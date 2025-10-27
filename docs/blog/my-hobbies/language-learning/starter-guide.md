@@ -156,25 +156,25 @@ Obtain as many resources to start your immersion and comprehensible input (free 
 
 ---
 
-### Children's Books
+#### Children's Books
 
 ---
 
-### Language Exchange Apps
+#### Language Exchange Apps
 - Tandem  
 - HelloTalk  
 - italki  
 
 ---
 
-### Flashcard Apps
+#### Flashcard Apps
 - Anki  
 - FluentU  
 - DuoCards  
 
 ---
 
-### Websites
+#### Websites
 - [Grammar in German on Lingolia](https://www.lingolia.com/de/)
 - [Grammar in Spanish on Lingolia](https://www.lingolia.com/es/)
 **Note**: With reference again to my take on the input hypothesis, I would advise learning your target language's grammar in the given target language. Learning Spanish or German grammar while still reading it in English is passable for A1, but past that, it is a waste of learning potential.
@@ -233,3 +233,21 @@ Below I compiled common end goals for language learners that will guide you in c
     - **Learner type**: People in multicultural families or relationships.
 
 ---
+
+## Comments Section
+
+<script src="https://giscus.app/client.js"
+        data-repo="cedricfyc/my-cv-blog"
+        data-repo-id="R_kgDOQFT-mg"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOQFT-ms4Cw36I"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

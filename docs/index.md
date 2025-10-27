@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # 👋 Hi, I'm Cedric Fong Yee Chun.
 
 Welcome to my personal website — a place where I share my resume, projects, hobbies, resources and whatever I feel like sharing.

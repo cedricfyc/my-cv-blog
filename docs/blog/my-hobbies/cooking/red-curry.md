@@ -11,3 +11,23 @@ Thai Red Curry Recipe at: [https://www.recipetineats.com/thai-red-curry-with-chi
 Below is a picture of the Thai red curry with some leftover rice I made.
 
 ![Thai Red Curry](assets/thai-red-curry-small.jpeg)
+
+---
+
+## Comments Section
+
+<script src="https://giscus.app/client.js"
+        data-repo="cedricfyc/my-cv-blog"
+        data-repo-id="R_kgDOQFT-mg"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOQFT-ms4Cw36I"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

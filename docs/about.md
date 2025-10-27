@@ -1,7 +1,13 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # About Me
 
-I'm a software developer passionate about web technologies, AI, and open-source.
+I'm a Mechatronics Engineer with an interest in automation in the industrial setting mainly, but also to some extent home automation. Creating my own website has been a special thought in my mind for a while now and I am glad to be able to realise it now.
 
-- 🌍 Based in: San Francisco, CA
-- 💻 Languages: Python, JavaScript, Go
-- 🎯 Interests: Machine Learning, Automation, DevOps
+- 🌍 **Based in**: Bavaria, Germany
+- 💻 **Languages**: Python, C++, C#, HTML, CSS
+- 🎯 **Interests**: Industrial Automation

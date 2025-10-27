@@ -1,22 +1,46 @@
 site_name: "Cedric's Website"
 site_description: "Personal portfolio, blog, and CV built with MkDocs."
-site_url: "https://johndoe.github.io"
+site_url: https://cedricfyc.github.io/my-cv-blog/
+repo_url: https://github.com/cedricfyc/my-cv-blog
+repo_name: cedricfyc/my-cv-blog
+
 theme:
   name: material
   language: en
   logo: assets/perrito-super-gordito.jpeg
   favicon: assets/perrito-super-gordito.jpeg
+  icon:
+    repo: fontawesome/brands/git-alt 
+  features:
+    - navigation.footer
+    - toc.integrate
+    - navigation.tabs
+    - navigation.top
+    - header.autohide
   palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+        primary: cyan
+
+    # Palette toggle for dark mode
     - scheme: slate
-      primary: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        primary: blue
 
 nav:
   - Home: index.md
-  - About: about.md
   - CV: cv.md
   - Projects:
       - Overview: projects/index.md
-      - Project 1: projects/project1.md
+      - Making This Website: projects/my-mkdocs-website.md
+      - Weather Forecast and Meteo Station: projects/weather-forecast-station.md
+      - Pick and Place Industrial Project: projects/pnp-industrial-project.md
+      - Fluid Mechatronic Linear Drive in Boris: projects/fluid-mechatronic-drive.md
   - Blog:
       - Blogs Overview: blog/index.md
       - My Hobbies:
@@ -24,6 +48,7 @@ nav:
            - Fitness Index: blog/my-hobbies/fitness/index.md
         - Climbing:
            - Climbing Index: blog/my-hobbies/climbing/index.md
+           - My Experience with Climbing: blog/my-hobbies/climbing/my-climbing-experience.md
         - Anime and Manga:
            - Anime and Manga Index: blog/my-hobbies/anime-and-manga/index.md
            - What is Manga/Anime?: blog/my-hobbies/anime-and-manga/what-is-manga-anime.md
@@ -32,16 +57,29 @@ nav:
            - My Favourite Genres: blog/my-hobbies/music/my-favourite-genres.md
         - Programming:
            - Programming Index: blog/my-hobbies/programming/index.md
+           - Get Started Programming: blog/my-hobbies/programming/get-started-programming.md
+           - Getting Into AI: blog/my-hobbies/programming/getting-into-aml.md
+           - Getting Into Arduino: blog/my-hobbies/programming/getting-into-arduino.md
+           - Getting Into Linux: blog/my-hobbies/programming/getting-into-linux.md
+           - Programming Resources: blog/my-hobbies/programming/prog-languages-resources.md
         - Language Learning:
            - Language Learning Index: blog/my-hobbies/language-learning/index.md
            - Language Starter Guide: blog/my-hobbies/language-learning/starter-guide.md
            - App Review - Tandem: blog/my-hobbies/language-learning/app-review-tandem.md
+           - English Yap: blog/my-hobbies/language-learning/english-yap.md
+           - French Yap: blog/my-hobbies/language-learning/french-yap.md
+           - Kreol Yap: blog/my-hobbies/language-learning/kreol-yap.md
+           - German Yap: blog/my-hobbies/language-learning/german-yap.md
+           - Spanish Yap: blog/my-hobbies/language-learning/spanish-yap.md
         - Cooking:
            - Cooking Index: blog/my-hobbies/cooking/index.md
            - Thai Red Curry: blog/my-hobbies/cooking/red-curry.md
       - Miscellaneous:
         - First Post: blog/misc/first-post.md
         - Cheatsheet: blog/misc/cheatsheet.md
+  - Announcements: announcements.md
+  - Website Goals: goals.md
+  - About: about.md
   - Contact: contact.md
 
 markdown_extensions:
@@ -59,10 +97,29 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   
+extra_css:
+  - stylesheets/comments.css
+  - stylesheets/cv.css
+
+copyright: Copyright &copy; This is my copyright notice. Feel free to copy. Rate the website on my <a href="https://cedricfyc.github.io/my-cv-blog/contact/#feedback-form">feedback page!</a>
+
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/johndoe
+      link: https://github.com/cedricfyc
+      name: My GitHub
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/cedricfyc/
+      name: My Insta
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/johndoe
+      link: https://www.linkedin.com/in/cedric-fong-yee-chun-777176248/
+      name: My LinkedIn
+
+plugins:
+  - social

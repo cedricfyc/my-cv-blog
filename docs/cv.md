@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -99,7 +105,7 @@
 
         <div class="resume-section">
           <h2>Languages</h2>
-          <p>Mauritian Creole (native) · French (C1)</p>
+          <p>Mauritian Creole (Native) · French (C1)</p>
           <p>English (C1) · German (B2)</p>
           <p>Spanish (fluent)</p>
         </div>

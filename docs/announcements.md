@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Announcements
 
 Below are announcements made by the author of this website:

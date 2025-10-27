@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Welcome to Cedric's Blog Section
 
 Below is a list of the topics I cover in my blogs:

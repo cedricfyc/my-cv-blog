@@ -4,6 +4,8 @@
 
 ## Pop Culture around Climbing
 
+Climbing has been a part of pop culture for some years now. I feel like it was some time after the opening up of institutions after the COVID-19 lockdowns that my YouTube feed and Instagram feed were being injected with climbing content. Indoor and outdoor climbing were concepts I had not seemingly not thought of yet.
+
 abrahamsson, fitness climbers, chris sharma, adam ondra, janja garnbret, alain robert (spider man), alex megos
 [https://rockclimbingcentral.com/the-14-different-types-of-climbing/#Trad](https://rockclimbingcentral.com/the-14-different-types-of-climbing/#Trad)
 

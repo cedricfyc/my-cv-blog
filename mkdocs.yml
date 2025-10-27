@@ -1,15 +1,23 @@
 site_name: "Cedric's Website"
 site_description: "Personal portfolio, blog, and CV built with MkDocs."
 site_url: https://cedricfyc.github.io/my-cv-blog/
+repo_url: https://github.com/cedricfyc/my-cv-blog
+repo_name: cedricfyc/my-cv-blog
+
 theme:
   name: material
   language: en
   logo: assets/perrito-super-gordito.jpeg
   favicon: assets/perrito-super-gordito.jpeg
+  icon:
+    repo: fontawesome/brands/git-alt 
   features:
     - navigation.footer
+    - toc.integrate
+    - navigation.tabs
+    - navigation.top
+    - header.autohide
   palette:
-
     # Palette toggle for light mode
     - scheme: default
       toggle:
@@ -26,10 +34,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Website Goals: goals.md
-  - About: about.md
   - CV: cv.md
-  - Announcements: announcements.md
   - Projects:
       - Overview: projects/index.md
       - Making This Website: projects/my-mkdocs-website.md
@@ -72,6 +77,9 @@ nav:
       - Miscellaneous:
         - First Post: blog/misc/first-post.md
         - Cheatsheet: blog/misc/cheatsheet.md
+  - Announcements: announcements.md
+  - Website Goals: goals.md
+  - About: about.md
   - Contact: contact.md
 
 markdown_extensions:

@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Projects
 
 Here’s a selection of my projects that I have worked on:

@@ -46,9 +46,7 @@ nav:
       - My Hobbies:
         - Fitness:
            - Fitness Index: blog/my-hobbies/fitness/index.md
-        - Climbing:
-           - Climbing Index: blog/my-hobbies/climbing/index.md
-           - My Experience with Climbing: blog/my-hobbies/climbing/my-climbing-experience.md
+           - My Experience with Climbing: blog/my-hobbies/fitness/my-climbing-experience.md
         - Anime and Manga:
            - Anime and Manga Index: blog/my-hobbies/anime-and-manga/index.md
            - What is Manga/Anime?: blog/my-hobbies/anime-and-manga/what-is-manga-anime.md

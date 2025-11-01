@@ -4,10 +4,14 @@ hide:
   - toc
 ---
 
-# About Me
+<div style="position: relative; padding: 2rem; max-width: 800px; margin: 0 auto; color: var(--md-typeset-color);">
+<h1>About Me</h1>
+<p>I'm a Mechatronics Engineer with an interest in automation in the industrial setting mainly, but also to some extent home automation...</p>
 
-I'm a Mechatronics Engineer with an interest in automation in the industrial setting mainly, but also to some extent home automation. Creating my own website has been a special thought in my mind for a while now and I am glad to be able to realise it now.
+<p>🌍 <strong>Based in</strong>: Bavaria, Germany</p>
+<p>💻 <strong>Languages</strong>: Python, C++, C#, HTML, CSS</p>
+<p>🎯 <strong>Interests</strong>: Industrial Automation</p>
+</div>
 
-- 🌍 **Based in**: Bavaria, Germany
-- 💻 **Languages**: Python, C++, C#, HTML, CSS
-- 🎯 **Interests**: Industrial Automation
+<div id="vanta-background" style="position: relative; width: 100%; height: 400px; border-radius: 16px; margin: 0 auto; overflow: hidden;">
+</div>

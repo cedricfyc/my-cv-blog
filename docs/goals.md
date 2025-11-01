@@ -11,16 +11,18 @@ This section aims to give you an idea of my progress on the website's content. B
 ## Implemented
 - [x] Deploy Website
 - [x] Complete CV and remaining empty pages
-- [x] Giscus Discussion Section
-- [x] Implement E-mail system to receive feedback
-- [x] Implement a toggeable light/dark mode
+- [x] [giscus](https://giscus.app/) Discussion Section
+- [x] Implement an [E-mail system](https://formspree.io/forms) to receive feedback
+- [x] Implement a toggeable [light/dark mode](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)
 - [x] Add feedback feature and links to it at the end of articles
 - [x] Add a footer with contact details
 - [x] Add social card(s)
 - [ ] Implement RSS feed
-- [ ] Implement newsletter system
-- [ ] Implement GH Actions for automatic updates of GH Pages
-- [ ] Add projects to project page
+- [ ] Implement [newsletter system](https://buttondown.com/)
+- [ ] Implement [GH Action](https://github.com/actions/deploy-pages) for automatic updates of GH Pages
+- [ ] Add model viewer from base HTML
+- [ ] Add js backgrounds from [vantajs](https://www.vantajs.com/)
+- [x] Add projects to project page
 - [ ] Implement dynamic change log -> Python script with git and file management
     - To be implemented as a script that detects latest changes in git
     - Orders files in descending order of change timestamp for each file

@@ -600,6 +600,114 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Exploring Alternatives to mkdocs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#easy-documentation-website-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Easy Documentation Website Frameworks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation Frameworks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documentation Frameworks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docusaurus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Docusaurus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vuepress-vitepress" class="md-nav__link">
+    <span class="md-ellipsis">
+      VuePress / VitePress
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docsify" class="md-nav__link">
+    <span class="md-ellipsis">
+      Docsify
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-website-development-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Website Development Frameworks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General Website Development Frameworks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vite-react-vue-svelte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vite + React / Vue / Svelte
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#template-libraries-ui-kits" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎨 Template Libraries / UI Kits
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boilerplates-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boilerplates &amp; Templates
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1929,6 +2037,7 @@
 
 
 <h1 id="making-this-website-using-mkdocs">Making This Website Using mkdocs</h1>
+<p><em>Written on: 02.11.2025</em></p>
 <p>This article addresses how I made the website and how you could give a go at mkdocs or alternatives of it.</p>
 <hr />
 <h2 id="what-does-mkdocs-do">What Does mkdocs Do?</h2>
@@ -1959,7 +2068,107 @@ mkdocs<span class="w"> </span>build
 <p>Blogs is the most complex directory system of my website. You can study its structure as reference. blogs branches into the different sub-sections which branch out into the actual articles with image/assets folders in every directory to host the assets (makes pathing from individual .md files easier).</p>
 <hr />
 <h2 id="exploring-alternatives-to-mkdocs">Exploring Alternatives to mkdocs</h2>
-<p>TO BE COMPLETED</p>
+<h3 id="easy-documentation-website-frameworks">Easy Documentation Website Frameworks</h3>
+<h3 id="documentation-frameworks">Documentation Frameworks</h3>
+<h4 id="docusaurus">Docusaurus</h4>
+<ul>
+<li><strong>Tech:</strong> React + Markdown</li>
+<li><strong>Use case:</strong> Software documentation, open-source project sites</li>
+<li><strong>Pros:</strong><ul>
+<li>Easy setup: <code>npx create-docusaurus@latest</code></li>
+<li>Write docs in Markdown</li>
+<li>Built-in dark mode, versioning, and search (Algolia)</li>
+<li>Easy deployment via GitHub Pages, Vercel, Netlify</li>
+</ul>
+</li>
+<li><strong>Cons:</strong> React-based — may be overkill for very simple static docs</li>
+<li><a href="https://docusaurus.io/">Get started with Docusaurus</a></li>
+</ul>
+<hr />
+<h4 id="vuepress-vitepress">VuePress / VitePress</h4>
+<ul>
+<li><strong>Tech:</strong> Vue + Markdown</li>
+<li><strong>Use case:</strong> Lightweight documentation or personal sites</li>
+<li><strong>Pros:</strong><ul>
+<li>Very fast, easy to configure</li>
+<li>Supports Markdown + Vue components</li>
+</ul>
+</li>
+<li><strong>Cons:</strong> Vue-based ecosystem — if not using Vue, Docusaurus might be easier</li>
+<li><a href="https://vitepress.dev">Get started with VitePress</a></li>
+</ul>
+<hr />
+<h4 id="docsify">Docsify</h4>
+<ul>
+<li><strong>Tech:</strong> Pure HTML + JS</li>
+<li><strong>Use case:</strong> Super lightweight docs that load dynamically from Markdown files</li>
+<li><strong>Pros:</strong><ul>
+<li>No build step</li>
+<li>Simply include the Docsify script in an HTML page and it works</li>
+</ul>
+</li>
+<li><strong>Cons:</strong> Client-side rendering only</li>
+<li><a href="https://docsify.js.org">Get started with Docsify</a></li>
+</ul>
+<hr />
+<h3 id="general-website-development-frameworks">General Website Development Frameworks</h3>
+<h4 id="nextjs">Next.js</h4>
+<ul>
+<li><strong>Tech:</strong> React + Node.js</li>
+<li><strong>Use case:</strong> Full-featured production websites (static or dynamic)</li>
+<li><strong>Pros:</strong><ul>
+<li>SEO-friendly (SSR + SSG)</li>
+<li>Integrated routing, API routes, image optimization</li>
+<li>Large ecosystem, easy deployment on Vercel</li>
+</ul>
+</li>
+<li><strong>Cons:</strong> Steeper learning curve</li>
+<li><a href="https://nextjs.org">Get started with Next.js</a></li>
+</ul>
+<hr />
+<h4 id="vite-react-vue-svelte">Vite + React / Vue / Svelte</h4>
+<ul>
+<li><strong>Tech:</strong> Any front-end framework</li>
+<li><strong>Use case:</strong> Lightweight dev setup for SPAs or landing pages</li>
+<li><strong>Pros:</strong><ul>
+<li>Extremely fast dev server</li>
+<li>Simple configuration, minimal boilerplate</li>
+</ul>
+</li>
+<li><strong>Cons:</strong> No built-in backend or routing; you add manually</li>
+<li><a href="https://vitejs.dev">Get started with Vitejs</a></li>
+</ul>
+<h3 id="template-libraries-ui-kits">🎨 Template Libraries / UI Kits</h3>
+<p>For building beautiful designs fast:</p>
+<ul>
+<li>
+<p>Tailwind CSS – Utility-first CSS framework at <a href="https://tailwindcss.com">https://tailwindcss.com</a></p>
+</li>
+<li>
+<p>shadcn/ui – Modern UI components for React + Tailwind at <a href="https://ui.shadcn.com">https://ui.shadcn.com</a></p>
+</li>
+<li>
+<p>Bootstrap – Classic responsive CSS/JS framework at <a href="https://getbootstrap.com">https://getbootstrap.com</a></p>
+</li>
+<li>
+<p>Flowbite – Tailwind components collection at <a href="https://flowbite.com">https://flowbite.com</a></p>
+</li>
+</ul>
+<h3 id="boilerplates-templates">Boilerplates &amp; Templates</h3>
+<ul>
+<li>
+<p>HTML5 UP – Free HTML templates for landing pages: <a href="https://html5up.net">https://html5up.net</a></p>
+</li>
+<li>
+<p>Cruip – Free &amp; paid React/Tailwind templates: <a href="https://cruip.com">https://cruip.com</a></p>
+</li>
+<li>
+<p>Vercel Templates – For Next.js + Tailwind: <a href="https://vercel.com/templates">https://vercel.com/templates</a></p>
+</li>
+<li>
+<p>ThemeForest – Paid templates for all stacks: <a href="https://themeforest.net">https://themeforest.net</a></p>
+</li>
+</ul>
 <hr />
 <h2 id="how-you-could-try-mkdocs">How You Could Try mkdocs</h2>
 <h3 id="clone-the-repository">Clone the Repository</h3>
@@ -2007,7 +2216,8 @@ mkdocs<span class="w"> </span>build
 <p>Feel free to adjust the configurations within mkdocs.yml to personalise pages. All the documentation is listed in the <a href="#resources">resources section</a> of this article.</p>
 <hr />
 <h2 id="my-goals-with-the-website">My Goals With The Website</h2>
-<p>TO BE COMPLETED</p>
+<p>The website was originally inspired by me wanting to have a personal website and the fact that I am also working on some documentation work as part of my internship.
+I intend to present my cv, projects and blogs. I like adding new features to expand the possibilities within the website and wish to provide users with a great experience.</p>
 <hr />
 <h2 id="resources">Resources</h2>
 <ul>
@@ -2017,6 +2227,7 @@ mkdocs<span class="w"> </span>build
 <li><a href="https://formspree.io/">formspree for the Contact Form</a></li>
 <li><a href="https://giscus.app/">giscus for the Discussions</a></li>
 <li><a href="https://docs.google.com/forms/">Google Forms for Feedback Form</a></li>
+<li><a href="https://github.com/loparcog/chrome-dinosaur">loparcog/chrome-dinosaur</a></li>
 </ul>
 <hr />
 

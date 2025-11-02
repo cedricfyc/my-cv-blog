@@ -1,5 +1,7 @@
 # Making This Website Using mkdocs
 
+*Written on: 02.11.2025*
+
 This article addresses how I made the website and how you could give a go at mkdocs or alternatives of it.
 
 ---
@@ -50,7 +52,95 @@ Blogs is the most complex directory system of my website. You can study its stru
 
 ## Exploring Alternatives to mkdocs
 
-TO BE COMPLETED
+### Easy Documentation Website Frameworks
+
+### Documentation Frameworks
+
+#### Docusaurus
+
+- **Tech:** React + Markdown
+- **Use case:** Software documentation, open-source project sites
+- **Pros:**
+    - Easy setup: `npx create-docusaurus@latest`
+    - Write docs in Markdown
+    - Built-in dark mode, versioning, and search (Algolia)
+    - Easy deployment via GitHub Pages, Vercel, Netlify
+- **Cons:** React-based — may be overkill for very simple static docs
+- [Get started with Docusaurus](https://docusaurus.io/)
+
+---
+
+#### VuePress / VitePress
+
+- **Tech:** Vue + Markdown
+- **Use case:** Lightweight documentation or personal sites
+- **Pros:**
+    - Very fast, easy to configure
+    - Supports Markdown + Vue components
+- **Cons:** Vue-based ecosystem — if not using Vue, Docusaurus might be easier
+- [Get started with VitePress](https://vitepress.dev)
+
+---
+
+#### Docsify
+
+- **Tech:** Pure HTML + JS
+- **Use case:** Super lightweight docs that load dynamically from Markdown files
+- **Pros:**
+    - No build step
+    - Simply include the Docsify script in an HTML page and it works
+- **Cons:** Client-side rendering only
+- [Get started with Docsify](https://docsify.js.org)
+
+---
+
+### General Website Development Frameworks
+
+#### Next.js
+
+- **Tech:** React + Node.js
+- **Use case:** Full-featured production websites (static or dynamic)
+- **Pros:**
+    - SEO-friendly (SSR + SSG)
+    - Integrated routing, API routes, image optimization
+    - Large ecosystem, easy deployment on Vercel
+- **Cons:** Steeper learning curve
+- [Get started with Next.js](https://nextjs.org)
+
+---
+
+#### Vite + React / Vue / Svelte
+
+- **Tech:** Any front-end framework
+- **Use case:** Lightweight dev setup for SPAs or landing pages
+- **Pros:**
+    - Extremely fast dev server
+    - Simple configuration, minimal boilerplate
+- **Cons:** No built-in backend or routing; you add manually
+- [Get started with Vitejs](https://vitejs.dev)
+
+
+### 🎨 Template Libraries / UI Kits
+
+For building beautiful designs fast:
+
+- Tailwind CSS – Utility-first CSS framework at [https://tailwindcss.com](https://tailwindcss.com)
+
+- shadcn/ui – Modern UI components for React + Tailwind at [https://ui.shadcn.com](https://ui.shadcn.com)
+
+- Bootstrap – Classic responsive CSS/JS framework at [https://getbootstrap.com](https://getbootstrap.com)
+
+- Flowbite – Tailwind components collection at [https://flowbite.com](https://flowbite.com)
+
+### Boilerplates & Templates
+
+- HTML5 UP – Free HTML templates for landing pages: [https://html5up.net](https://html5up.net)
+
+- Cruip – Free & paid React/Tailwind templates: [https://cruip.com](https://cruip.com)
+
+- Vercel Templates – For Next.js + Tailwind: [https://vercel.com/templates](https://vercel.com/templates)
+
+- ThemeForest – Paid templates for all stacks: [https://themeforest.net](https://themeforest.net)
 
 ---
 
@@ -122,7 +212,8 @@ Feel free to adjust the configurations within mkdocs.yml to personalise pages. A
 
 ## My Goals With The Website
 
-TO BE COMPLETED
+The website was originally inspired by me wanting to have a personal website and the fact that I am also working on some documentation work as part of my internship.
+I intend to present my cv, projects and blogs. I like adding new features to expand the possibilities within the website and wish to provide users with a great experience.
 
 ---
 
@@ -134,5 +225,6 @@ TO BE COMPLETED
 - [formspree for the Contact Form](https://formspree.io/)
 - [giscus for the Discussions](https://giscus.app/)
 - [Google Forms for Feedback Form](https://docs.google.com/forms/)
+- [loparcog/chrome-dinosaur](https://github.com/loparcog/chrome-dinosaur)
 
 ---

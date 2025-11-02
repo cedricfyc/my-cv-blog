@@ -75,6 +75,7 @@ nav:
       - Miscellaneous:
         - First Post: blog/misc/first-post.md
         - Cheatsheet: blog/misc/cheatsheet.md
+        - Dino Game: blog/misc/dino.md
   - Announcements: announcements.md
   - Website Goals: goals.md
   - About: about.md
@@ -112,6 +113,7 @@ extra_javascript:
 - js/vanta.net.min.js
 - js/vanta.birds.min.js
 - js/vanta.waves.min.js
+- js/dinoscript.js
 
 copyright: Copyright &copy; This is my copyright notice. Feel free to copy. Rate the website on my <a href="https://cedricfyc.github.io/my-cv-blog/contact/#feedback-form">feedback page!</a>
 

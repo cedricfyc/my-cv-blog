@@ -20,8 +20,9 @@ This section aims to give you an idea of my progress on the website's content. B
 - [ ] Implement RSS feed
 - [ ] Implement [newsletter system](https://buttondown.com/)
 - [ ] Implement [GH Action](https://github.com/actions/deploy-pages) for automatic updates of GH Pages
+- [x] Add a built-in browser game, available at [loparcog/chrome-dinosaur](https://github.com/loparcog/chrome-dinosaur/tree/master)
 - [ ] Add model viewer from base HTML
-- [ ] Add js backgrounds from [vantajs](https://www.vantajs.com/)
+- [x] Add js backgrounds from [vantajs](https://www.vantajs.com/)
 - [x] Add projects to project page
 - [ ] Implement dynamic change log -> Python script with git and file management
     - To be implemented as a script that detects latest changes in git

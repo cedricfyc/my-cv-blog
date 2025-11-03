@@ -54,6 +54,8 @@
     
       <link rel="stylesheet" href="../stylesheets/cv.css">
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1843,9 +1845,12 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Add feedback feature and links to it at the end of articles</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Add a footer with contact details</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Add social card(s)</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Add download buttons for relevant content <a href="https://webtips.dev/webtips/html/how-to-make-a-download-button-in-html">webtips - How to Make a Download Button in HTML</a></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Implement RSS feed</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Implement <a href="https://buttondown.com/">newsletter system</a></li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Add download buttons for relevant content <a href="https://webtips.dev/webtips/html/how-to-make-a-download-button-in-html">webtips - How to Make a Download Button in HTML</a></p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Implement <a href="https://buttondown.com/">newsletter system</a></p>
+</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Implement <a href="https://github.com/actions/deploy-pages">GH Action</a> for automatic updates of GH Pages</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Add a built-in browser game, available at <a href="https://github.com/loparcog/chrome-dinosaur/tree/master">loparcog/chrome-dinosaur</a></li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Add model viewer from base HTML from <a href="https://modelviewer.dev/"><model-viewer> by Google</a></li>
@@ -1862,10 +1867,19 @@
 <hr />
 <h2 id="cancelled">Cancelled</h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <del>Implement analytics functions for feature improvement</del><ul>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <del>Implement analytics functions for feature improvement</del></p>
+<ul>
 <li>Not possible due to lack of transparency around Google Analytics</li>
 <li>Other analytics services were either paid or a pain to set-up</li>
 <li>I deemed that a simple feedback form would be enough.</li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <del>Implement RSS feed</del></p>
+<ul>
+<li>Too lazy to implement a feature that I will barely use</li>
+<li>Newsletters have simply better reach, RSS feeds require extra set-up for subscribers too.</li>
 </ul>
 </li>
 </ul>
@@ -1919,6 +1933,7 @@
         
       </main>
       
+  
         <footer class="md-footer">
   
     
@@ -2012,6 +2027,26 @@
   </div>
 </footer>
       
+  <div class="newsletter-footer">
+    <h4>Subscribe to my newsletter</h4>
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/cedricfyc"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/cedricfyc', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <label for="bd-email">Enter your email</label>
+      <input type="email" name="email" id="bd-email" required placeholder="you@example.com" />
+      <input type="submit" value="Subscribe" />
+      <p style="margin-top: 0.5em;">
+        <a href="https://buttondown.email/refer/cedricfyc" target="_blank" rel="noopener noreferrer">
+          Powered by Buttondown
+        </a>
+      </p>
+    </form>
+  </div>
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>

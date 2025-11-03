@@ -54,6 +54,8 @@
     
       <link rel="stylesheet" href="../../stylesheets/cv.css">
     
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -620,6 +622,15 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#cad" class="md-nav__link">
@@ -1915,9 +1926,27 @@
 
 <h1 id="pick-and-place-industrial-project">Pick and Place Industrial Project</h1>
 <p><em>Written on: 02.11.2025</em></p>
+<h2 id="overview">Overview</h2>
+<p>My industrial project in collaboration with <a href="https://nanoplus.com/">nanoplus</a> had my teammates and I working together on a pick-and-place project. The task at hand involved programming a pick-and-place/3-D printer machine for the identification and pick-up of specific items of millimeters in length, i.e. approx. 3 mm x 1.6 mm. The items in question were laser heat spreaders (LHS) that required precise handling so as not to damage their surface.  The task would come down to the following points:</p>
+<ul>
+<li>Design CAD holds for a newly-bought camera</li>
+<li>Fine-tune a YOLO model for identification of the LHS</li>
+<li>Write a python script to send g-code for the pick-and-place action</li>
+</ul>
+<p>Our team of 5 distributed our work according to our capabilities. I personally took the responsibility of working on the YOLO-based computer vision model. However, during my free time, I would keep myself updated over the progress of my teammates.  In the sections that ensue, I will be covering the different aspects of the project that we tackled.</p>
+<hr />
 <h2 id="cad">CAD</h2>
+<p>The CAD aspect involved designing a holder for the camera to be have a clear view of the LHS while being moved alongside the pick-and-place machine. </p>
 <hr />
 <h3 id="challenge">Challenge</h3>
+<p>The final decision was to have the camera be held directly next to the pick-and-place vacuum pick-up component. 
+The challenges faced here were:</p>
+<ul>
+<li>Challenge 1</li>
+<li>Challenge 2</li>
+<li>Challenge 3</li>
+</ul>
+<p><strong>Note:</strong> We originally also designed a vacuum pick-up nozzle according to the specifications of nanoplus, but due to constraints on the smallest possible 3-D print by the company's 3-D printer at the time, we had to make do with a rougher pick-up nozzle. The principle of pick-up was all that mattered. The tests would be run on defective LHS so as not to damage precious items.</p>
 <hr />
 <h3 id="solution">Solution</h3>
 <!-- Import model-viewer FIRST -->
@@ -2060,6 +2089,7 @@
         
       </main>
       
+  
         <footer class="md-footer">
   
     
@@ -2151,6 +2181,26 @@
   </div>
 </footer>
       
+  <div class="newsletter-footer">
+    <h4>Subscribe to my newsletter</h4>
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/cedricfyc"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/cedricfyc', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <label for="bd-email">Enter your email</label>
+      <input type="email" name="email" id="bd-email" required placeholder="you@example.com" />
+      <input type="submit" value="Subscribe" />
+      <p style="margin-top: 0.5em;">
+        <a href="https://buttondown.email/refer/cedricfyc" target="_blank" rel="noopener noreferrer">
+          Powered by Buttondown
+        </a>
+      </p>
+    </form>
+  </div>
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>

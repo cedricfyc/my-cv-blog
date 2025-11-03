@@ -1,0 +1,35 @@
+.newsletter-footer {
+  text-align: center;
+  padding: 1.5em 0;
+  background: var(--md-footer-bg-color);
+  color: var(--md-footer-fg-color);
+}
+
+.newsletter-footer h4 {
+  margin-bottom: 0.5em;
+}
+
+.newsletter-footer form {
+  display: inline-block;
+}
+
+.newsletter-footer input[type="email"] {
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 0.5em;
+  min-width: 220px;
+}
+
+.newsletter-footer input[type="submit"] {
+  padding: 0.5em 1em;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.newsletter-footer input[type="submit"]:hover {
+  background-color: #005bb5;
+}

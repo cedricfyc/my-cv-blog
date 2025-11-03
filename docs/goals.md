@@ -9,6 +9,7 @@ hide:
 This section aims to give you an idea of my progress on the website's content. Based on how feasible a feature is as I am working on it, it will either be implemented or cancelled and put into the trash.
 
 ## Implemented
+
 - [x] Deploy Website
 - [x] Complete CV and remaining empty pages
 - [x] [giscus](https://giscus.app/) Discussion Section
@@ -17,11 +18,12 @@ This section aims to give you an idea of my progress on the website's content. B
 - [x] Add feedback feature and links to it at the end of articles
 - [x] Add a footer with contact details
 - [x] Add social card(s)
-- [ ] Implement RSS feed
+- [x] Add download buttons for relevant content [webtips - How to Make a Download Button in HTML](https://webtips.dev/webtips/html/how-to-make-a-download-button-in-html)
+
 - [ ] Implement [newsletter system](https://buttondown.com/)
 - [ ] Implement [GH Action](https://github.com/actions/deploy-pages) for automatic updates of GH Pages
 - [x] Add a built-in browser game, available at [loparcog/chrome-dinosaur](https://github.com/loparcog/chrome-dinosaur/tree/master)
-- [ ] Add model viewer from base HTML
+- [x] Add model viewer from base HTML from [<model-viewer> by Google](https://modelviewer.dev/)
 - [x] Add js backgrounds from [vantajs](https://www.vantajs.com/)
 - [x] Add projects to project page
 - [ ] Implement dynamic change log -> Python script with git and file management
@@ -38,6 +40,10 @@ This section aims to give you an idea of my progress on the website's content. B
     - Not possible due to lack of transparency around Google Analytics
     - Other analytics services were either paid or a pain to set-up
     - I deemed that a simple feedback form would be enough.
+
+- [ ] ~~Implement RSS feed~~
+    - Too lazy to implement a feature that I will barely use
+    - Newsletters have simply better reach, RSS feeds require extra set-up for subscribers too.
 
 ---
 

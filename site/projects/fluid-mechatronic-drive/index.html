@@ -54,6 +54,8 @@
     
       <link rel="stylesheet" href="../../stylesheets/cv.css">
     
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1774,6 +1776,33 @@
 
 
 <h1 id="fluid-mechatronic-linear-drive-simulation-in-boris">Fluid Mechatronic Linear Drive Simulation in Boris</h1>
+<p>I experimented with the integrated model viewer by Google. The source code is provided by them as a .js file, and it is being rendered from the script within this page. I will use it when adding projects in the future.</p>
+<!-- Import model-viewer FIRST -->
+<script type="module" src="../../js/model-viewer.min.js"></script>
+
+<!-- Style -->
+<style>
+  model-viewer {
+    background-color: #1e1e1e;
+    display: inline-block; /* inline-block + text-align center ensures centering */
+    width: 60%; /* large but not full-width */
+    height: 500px;
+    border-radius: 12px;
+  }
+</style>
+
+<!-- Model Viewer -->
+<p><model-viewer
+  src="../assets/cad/vertopal.com_lightingbracket_fnf.glb"
+  camera-controls
+  auto-rotate
+  shadow-intensity="1.0"
+  exposure="0.2"
+  shadow-softness="0.8"
+  environment-image="neutral"
+  alt="Lighting bracket model">
+</model-viewer></p>
+<hr />
 
 
 
@@ -1805,6 +1834,7 @@
         
       </main>
       
+  
         <footer class="md-footer">
   
     
@@ -1896,6 +1926,26 @@
   </div>
 </footer>
       
+  <div class="newsletter-footer">
+    <h4>Subscribe to my newsletter</h4>
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/cedricfyc"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/cedricfyc', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <label for="bd-email">Enter your email</label>
+      <input type="email" name="email" id="bd-email" required placeholder="you@example.com" />
+      <input type="submit" value="Subscribe" />
+      <p style="margin-top: 0.5em;">
+        <a href="https://buttondown.email/refer/cedricfyc" target="_blank" rel="noopener noreferrer">
+          Powered by Buttondown
+        </a>
+      </p>
+    </form>
+  </div>
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
@@ -1922,6 +1972,8 @@
         <script src="../../js/vanta.waves.min.js"></script>
       
         <script src="../../js/dinoscript.js"></script>
+      
+        <script src="../../js/model-viewer.min.js"></script>
       
     
   </body>

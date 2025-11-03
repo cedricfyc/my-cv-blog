@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block footer %}
+  {{ super() }}
+  <div class="newsletter-footer">
+    <h4>Subscribe to my newsletter</h4>
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/cedricfyc"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/cedricfyc', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <label for="bd-email">Enter your email</label>
+      <input type="email" name="email" id="bd-email" required placeholder="you@example.com" />
+      <input type="submit" value="Subscribe" />
+      <p style="margin-top: 0.5em;">
+        <a href="https://buttondown.email/refer/cedricfyc" target="_blank" rel="noopener noreferrer">
+          Powered by Buttondown
+        </a>
+      </p>
+    </form>
+  </div>
+{% endblock %}

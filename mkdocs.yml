@@ -6,6 +6,7 @@ repo_name: cedricfyc/my-cv-blog
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   logo: assets/perrito-super-gordito.jpeg
   favicon: assets/perrito-super-gordito.jpeg
@@ -105,6 +106,7 @@ markdown_extensions:
 extra_css:
   - stylesheets/comments.css
   - stylesheets/cv.css
+  - stylesheets/extra.css
 
 extra_javascript:
 - js/vanta-init.js
@@ -114,6 +116,7 @@ extra_javascript:
 - js/vanta.birds.min.js
 - js/vanta.waves.min.js
 - js/dinoscript.js
+- js/model-viewer.min.js
 
 copyright: Copyright &copy; This is my copyright notice. Feel free to copy. Rate the website on my <a href="https://cedricfyc.github.io/my-cv-blog/contact/#feedback-form">feedback page!</a>
 

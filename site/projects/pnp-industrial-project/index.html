@@ -54,6 +54,8 @@
     
       <link rel="stylesheet" href="../../stylesheets/cv.css">
     
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -581,6 +583,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Pick and Place Industrial Project
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -592,6 +607,142 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cad" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAD
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CAD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Challenge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solution
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yolo-computer-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      YOLO: Computer Vision
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="YOLO: Computer Vision">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-yolo" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is YOLO?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-yolo-for-identifying-laser-heat-spreaders" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using YOLO for Identifying Laser Heat Spreaders
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-of-yolo-for-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results of YOLO for Detection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pick-and-place-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pick-and-Place Programming
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pick-and-Place Programming">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#g-code-explained" class="md-nav__link">
+    <span class="md-ellipsis">
+      g-code Explained
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#g-code-translator-in-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      g-code Translator in Python
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1774,6 +1925,139 @@
 
 
 <h1 id="pick-and-place-industrial-project">Pick and Place Industrial Project</h1>
+<p><em>Written on: 02.11.2025</em></p>
+<h2 id="overview">Overview</h2>
+<p>My industrial project in collaboration with <a href="https://nanoplus.com/">nanoplus</a> had my teammates and I working together on a pick-and-place project. The task at hand involved programming a pick-and-place/3-D printer machine for the identification and pick-up of specific items of millimeters in length, i.e. approx. 3 mm x 1.6 mm. The items in question were laser heat spreaders (LHS) that required precise handling so as not to damage their surface.  The task would come down to the following points:</p>
+<ul>
+<li>Design CAD holds for a newly-bought camera</li>
+<li>Fine-tune a YOLO model for identification of the LHS</li>
+<li>Write a python script to send g-code for the pick-and-place action</li>
+</ul>
+<p>Our team of 5 distributed our work according to our capabilities. I personally took the responsibility of working on the YOLO-based computer vision model. However, during my free time, I would keep myself updated over the progress of my teammates.  In the sections that ensue, I will be covering the different aspects of the project that we tackled.</p>
+<hr />
+<h2 id="cad">CAD</h2>
+<p>The CAD aspect involved designing a holder for the camera to be have a clear view of the LHS while being moved alongside the pick-and-place machine. </p>
+<hr />
+<h3 id="challenge">Challenge</h3>
+<p>The final decision was to have the camera be held directly next to the pick-and-place vacuum pick-up component. 
+The challenges faced here were:</p>
+<ul>
+<li>Challenge 1</li>
+<li>Challenge 2</li>
+<li>Challenge 3</li>
+</ul>
+<p><strong>Note:</strong> We originally also designed a vacuum pick-up nozzle according to the specifications of nanoplus, but due to constraints on the smallest possible 3-D print by the company's 3-D printer at the time, we had to make do with a rougher pick-up nozzle. The principle of pick-up was all that mattered. The tests would be run on defective LHS so as not to damage precious items.</p>
+<hr />
+<h3 id="solution">Solution</h3>
+<!-- Import model-viewer FIRST -->
+<script type="module" src="../../js/model-viewer.min.js"></script>
+
+<!-- Style -->
+<style>
+  .model-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: start;
+  }
+
+  .model-item {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 16px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+
+  model-viewer {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+  }
+
+  .caption {
+    margin-top: 12px;
+    font-size: 1rem;
+    color: #ccc;
+  }
+</style>
+
+<!-- Model Grid -->
+<div class="model-grid">
+  <div class="model-item">
+    <model-viewer
+      src="../assets/cad/vertopal.com_lightingbracket_fnf.glb"
+      camera-controls
+      auto-rotate
+      shadow-intensity="1.0"
+      exposure="0.2"
+      shadow-softness="0.8"
+      environment-image="neutral"
+      alt="Lighting bracket model">
+    </model-viewer>
+    <div class="caption">Lighting Bracket</div>
+  </div>
+
+  <div class="model-item">
+    <model-viewer
+      src="../assets/cad/vertopal.com_lbracket_fnf.glb"
+      camera-controls
+      auto-rotate
+      shadow-intensity="1.0"
+      exposure="0.2"
+      shadow-softness="0.8"
+      environment-image="neutral"
+      alt="Left bracket model">
+    </model-viewer>
+    <div class="caption">Left Bracket</div>
+  </div>
+
+  <div class="model-item">
+    <model-viewer
+      src="../assets/cad/vertopal.com_rbracket_fnf.glb"
+      camera-controls
+      auto-rotate
+      shadow-intensity="1.0"
+      exposure="0.2"
+      shadow-softness="0.8"
+      environment-image="neutral"
+      alt="Right bracket model">
+    </model-viewer>
+    <div class="caption">Right Bracket</div>
+  </div>
+
+  <div class="model-item">
+    <model-viewer
+      src="../assets/cad/vertopal.com_Raspberry Pi 4 Model B.glb"
+      camera-controls
+      auto-rotate
+      shadow-intensity="1.0"
+      exposure="0.2"
+      shadow-softness="0.8"
+      environment-image="neutral"
+      alt="Raspberry Pi 4 Model B">
+    </model-viewer>
+    <div class="caption">Raspberry Pi 4 Model B</div>
+  </div>
+</div>
+
+<hr />
+<h2 id="yolo-computer-vision">YOLO: Computer Vision</h2>
+<hr />
+<h3 id="what-is-yolo">What is YOLO?</h3>
+<hr />
+<h3 id="using-yolo-for-identifying-laser-heat-spreaders">Using YOLO for Identifying Laser Heat Spreaders</h3>
+<hr />
+<h3 id="results-of-yolo-for-detection">Results of YOLO for Detection</h3>
+<hr />
+<h2 id="pick-and-place-programming">Pick-and-Place Programming</h2>
+<hr />
+<h3 id="g-code-explained">g-code Explained</h3>
+<hr />
+<h3 id="g-code-translator-in-python">g-code Translator in Python</h3>
+<hr />
 
 
 
@@ -1805,6 +2089,7 @@
         
       </main>
       
+  
         <footer class="md-footer">
   
     
@@ -1896,6 +2181,26 @@
   </div>
 </footer>
       
+  <div class="newsletter-footer">
+    <h4>Subscribe to my newsletter</h4>
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/cedricfyc"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/cedricfyc', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <label for="bd-email">Enter your email</label>
+      <input type="email" name="email" id="bd-email" required placeholder="you@example.com" />
+      <input type="submit" value="Subscribe" />
+      <p style="margin-top: 0.5em;">
+        <a href="https://buttondown.email/refer/cedricfyc" target="_blank" rel="noopener noreferrer">
+          Powered by Buttondown
+        </a>
+      </p>
+    </form>
+  </div>
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
@@ -1922,6 +2227,8 @@
         <script src="../../js/vanta.waves.min.js"></script>
       
         <script src="../../js/dinoscript.js"></script>
+      
+        <script src="../../js/model-viewer.min.js"></script>
       
     
   </body>
